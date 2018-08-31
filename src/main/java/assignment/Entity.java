@@ -1,6 +1,6 @@
 package assignment;
 
-public class Entity {
+public class Entity implements Comparable<Entity> {
 
     private int id;
     private String name;
@@ -37,5 +37,16 @@ public class Entity {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        Entity e = (Entity) o;
+        return this.name.equals(e.getName()) && this.description.equals(e.getDescription());
+    }
+
+    @Override
+    public int compareTo(Entity o) {
+        return this.id - o.getId();
     }
 }

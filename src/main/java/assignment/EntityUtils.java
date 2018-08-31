@@ -6,12 +6,11 @@ import java.util.*;
 
 public class EntityUtils {
 
-    private static Random rnd = new Random();
-
     /*
      * Generate a random integer between 100 (inclusive) and 10000 (exclusive)
      */
     public static int generateNewId() {
+        Random rnd = new Random();
         int low = 100;
         int high = 10000;
         return rnd.nextInt(high - low) + low;
@@ -51,13 +50,15 @@ public class EntityUtils {
 
         // Set parents of initial entity to new entity
         List<Entity> parents = linkToMap.get(id);
-        for (Entity parent : parents) {
-            if (!linkFromMap.containsKey(parent.getId())) {
-                linkFromMap.put(parent.getId(), new ArrayList<>());
-            }
-            linkFromMap.get(parent.getId()).add(cloneEntity);
+        if (parents != null) {
+            for (Entity parent : parents) {
+                if (!linkFromMap.containsKey(parent.getId())) {
+                    linkFromMap.put(parent.getId(), new ArrayList<>());
+                }
+                linkFromMap.get(parent.getId()).add(cloneEntity);
 
-            // No need to update linkToMap as we only need one to rebuild original list of links
+                // No need to update linkToMap as we only need one to rebuild original list of links
+            }
         }
 
         // Rebuild entities list

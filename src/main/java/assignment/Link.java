@@ -1,6 +1,6 @@
 package assignment;
 
-public class Link {
+public class Link implements Comparable<Link> {
 
   private Entity fromEntity;
   private Entity toEntity;
@@ -24,5 +24,18 @@ public class Link {
 
   public void setToEntity(Entity toEntity) {
     this.toEntity = toEntity;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    Link l = (Link) o;
+    return this.fromEntity.getId() == l.getFromEntity().getId()
+            && this.toEntity.getId() == l.getToEntity().getId();
+  }
+
+  @Override
+  public int compareTo(Link o) {
+    int compareFrom = this.fromEntity.compareTo(o.getFromEntity());
+    return compareFrom == 0 ? this.toEntity.compareTo(o.getToEntity()) : compareFrom;
   }
 }

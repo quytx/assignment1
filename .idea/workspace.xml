@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28bdf861-5e4d-4c09-a53e-7377225123eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTestWithMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/EntityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment/EntityException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assignment/EntityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment/EntityUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assignment/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/assignment/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTestWithMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assignment/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/assignment/Entity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/assignment/EntityUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/assignment/EntityUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assignment/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/assignment/Link.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/assignment/EntityTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/assignment/EntityUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/assignment/EntityUtilsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/assignment/EntityUtilsTestWithMock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/assignment/EntityUtilsTestWithMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,29 +36,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="4" />
           <entry key="iml" value="2" />
-          <entry key="java" value="9" />
+          <entry key="java" value="13" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="13" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="5" />
           <entry key="iml" value="2" />
-          <entry key="java" value="1249" />
+          <entry key="java" value="2825" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="1249" />
+          <entry key="JAVA" value="2825" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -69,23 +73,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="40">
+              <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#331#465#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTestWithMock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="38" column="84" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -93,26 +96,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/assignment/EntityException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="548">
+              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+              <folding>
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +109,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/assignment/EntityUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="312">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/src.zip!/java/util/Random.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="385" column="33" selection-start-line="385" selection-start-column="11" selection-end-line="385" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -129,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="-9">
+              <caret line="2" column="62" lean-forward="true" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -144,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/workspace.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="106" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
+              <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -158,6 +156,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nextInt(int</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -165,12 +168,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/workspace.iml" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment/EntityException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTestWithMock.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/assignment/Entity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/assignment/EntityException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/assignment/EntityUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTestWithMock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment/Link.java" />
         <option value="$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment/EntityUtils.java" />
       </list>
     </option>
   </component>
@@ -271,9 +275,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="link&#9;FILE&#9;file:///Users/Quy/Desktop/workspace/src/main/java/assignment/Link.java&#10;enti&#9;PSI&#9;JAVA://assignment.Entity" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.32873562" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,8 +292,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EntityUtilsTest.deepClone_shouldCloneGraph_scenario1">
-    <configuration name="EntityUtilsTestWithMock.deepClone_shouldCloneGraph_scenario1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EntityUtilsTestWithMock">
+    <configuration name="EntityUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
@@ -297,9 +302,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="assignment" />
-      <option name="MAIN_CLASS_NAME" value="assignment.EntityUtilsTestWithMock" />
-      <option name="METHOD_NAME" value="deepClone_shouldCloneGraph_scenario1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="assignment.EntityUtilsTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -320,7 +323,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntityUtilsTest.deepClone_shouldThrowException_WhenAnEntityIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario2_cyclic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
@@ -330,13 +333,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="assignment" />
       <option name="MAIN_CLASS_NAME" value="assignment.EntityUtilsTest" />
-      <option name="METHOD_NAME" value="deepClone_shouldThrowException_WhenAnEntityIsNull" />
+      <option name="METHOD_NAME" value="deepClone_shouldCloneGraph_scenario2_cyclic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntityUtilsTest.deepClone_shouldThrowException_whenALinkIsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_twoEntities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
@@ -346,13 +349,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="assignment" />
       <option name="MAIN_CLASS_NAME" value="assignment.EntityUtilsTest" />
-      <option name="METHOD_NAME" value="deepClone_shouldThrowException_whenALinkIsInvalid" />
+      <option name="METHOD_NAME" value="deepClone_shouldCloneGraph_twoEntities" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntityUtilsTest.generateNewId_shouldGenerateAnIntegerBetween100and10000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TempEntityUtilsTest.deepClone_shouldCloneGraph_scenario1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
@@ -361,27 +364,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="assignment" />
-      <option name="MAIN_CLASS_NAME" value="assignment.EntityUtilsTest" />
-      <option name="METHOD_NAME" value="generateNewId_shouldGenerateAnIntegerBetween100and10000" />
+      <option name="MAIN_CLASS_NAME" value="assignment.TempEntityUtilsTest" />
+      <option name="METHOD_NAME" value="deepClone_shouldCloneGraph_scenario1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldThrowException_WhenAnEntityIsNull" />
-      <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldThrowException_whenALinkIsInvalid" />
-      <item itemvalue="JUnit.EntityUtilsTest.generateNewId_shouldGenerateAnIntegerBetween100and10000" />
-      <item itemvalue="JUnit.EntityUtilsTestWithMock.deepClone_shouldCloneGraph_scenario1" />
       <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" />
+      <item itemvalue="JUnit.TempEntityUtilsTest.deepClone_shouldCloneGraph_scenario1" />
+      <item itemvalue="JUnit.EntityUtilsTestWithMock" />
+      <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldCloneGraph_scenario2_cyclic" />
+      <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldCloneGraph_twoEntities" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EntityUtilsTestWithMock" />
+        <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldCloneGraph_twoEntities" />
+        <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldCloneGraph_scenario2_cyclic" />
         <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" />
-        <item itemvalue="JUnit.EntityUtilsTestWithMock.deepClone_shouldCloneGraph_scenario1" />
-        <item itemvalue="JUnit.EntityUtilsTest.generateNewId_shouldGenerateAnIntegerBetween100and10000" />
-        <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldThrowException_whenALinkIsInvalid" />
-        <item itemvalue="JUnit.EntityUtilsTest.deepClone_shouldThrowException_WhenAnEntityIsNull" />
+        <item itemvalue="JUnit.TempEntityUtilsTest.deepClone_shouldCloneGraph_scenario1" />
       </list>
     </recent_temporary>
   </component>
@@ -399,35 +402,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph - 2018.08.30 at 09h 01m 16s.xml">
-      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph - 2018.08.30 at 09h 01m 39s.xml">
-      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 09h 07m 45s.xml">
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 19h 55m 07s.xml">
       <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario2_cyclic - 2018.08.30 at 09h 08m 14s.xml">
-      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario2_cyclic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario2_cyclic - 2018.08.30 at 09h 09m 27s.xml">
-      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario2_cyclic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EntityUtilsTest_deepClone_shouldThrowException_WhenAnEntityIsNull - 2018.08.30 at 09h 14m 08s.xml">
-      <configuration name="EntityUtilsTest.deepClone_shouldThrowException_WhenAnEntityIsNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EntityUtilsTest_deepClone_shouldThrowException_whenALinkIsInvalid - 2018.08.30 at 09h 15m 04s.xml">
-      <configuration name="EntityUtilsTest.deepClone_shouldThrowException_whenALinkIsInvalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EntityUtilsTest_generateNewId_shouldGenerateAnIntegerBetween100and10000 - 2018.08.30 at 09h 15m 11s.xml">
-      <configuration name="EntityUtilsTest.generateNewId_shouldGenerateAnIntegerBetween100and10000" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EntityUtilsTestWithMock_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 09h 26m 27s.xml">
-      <configuration name="EntityUtilsTestWithMock.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 09h 28m 38s.xml">
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 19h 55m 27s.xml">
       <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 20h 30m 59s.xml">
+      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempEntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 20h 31m 36s.xml">
+      <configuration name="TempEntityUtilsTest.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 20h 33m 53s.xml">
+      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 20h 38m 49s.xml">
+      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 20h 44m 17s.xml">
+      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario1 - 2018.08.30 at 20h 50m 07s.xml">
+      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_scenario2_cyclic - 2018.08.30 at 20h 51m 24s.xml">
+      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_scenario2_cyclic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityUtilsTest_deepClone_shouldCloneGraph_twoEntities - 2018.08.30 at 20h 52m 41s.xml">
+      <configuration name="EntityUtilsTest.deepClone_shouldCloneGraph_twoEntities" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -436,7 +439,7 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23048556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23048556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -444,8 +447,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32834226" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23208556" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23529412" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33582887" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -463,46 +466,60 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>mockedRandom.nextInt()</expression-string>
+        <expression-string>expectedLinks.get(4).equals(links.get(2))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mockedRandom</expression-string>
+        <expression-string>expectedLinks.get(2).equals(links.get(2))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expectedLinks.get(2).equals(links.get(5))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expectedLinks.get(5).equals(links.get(5))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expectedLinks.get(4).equals(links.get(5))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expectedLinks.get(3).equals(links.get(4))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expectedLinks.get(2).equals(links.get(3))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expectedLinks.get(3).equals(links.get(3))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expectedLinks.get(4).equals(links.get(4))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/main.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="106" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -513,20 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/assignment/EntityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/assignment/EntityTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -534,22 +537,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTestWithMock.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="-9">
+          <caret line="2" column="62" lean-forward="true" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jmockit/jmockit/1.8/jmockit-1.8.jar!/mockit/internal/expectations/transformation/ExpectationsTransformer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jmockit/jmockit/1.8/jmockit-1.8.jar!/mockit/internal/expectations/transformation/ActiveInvocations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment/TempEntityUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="385" column="33" selection-start-line="385" selection-start-column="11" selection-end-line="385" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="360" column="23" selection-start-line="360" selection-start-column="23" selection-end-line="360" selection-end-column="23" />
+          <folding>
+            <element signature="e#12413#12414#0" expanded="true" />
+            <element signature="e#12466#12467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" column="84" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment/EntityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/assignment/EntityUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+        <state relative-caret-position="40">
+          <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#331#465#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -575,7 +651,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.32873562" />
               </list>
             </option>
           </splitter-proportions>
@@ -610,7 +686,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.32873562" />
               </list>
             </option>
           </splitter-proportions>
@@ -630,11 +706,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.32873562" />
               </list>
             </option>
           </splitter-proportions>
